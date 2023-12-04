@@ -1,0 +1,129 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 11px;
+    /* imoportant*/
+    background: hsl(225, 100%, 94%) url('./images/pattern-background-desktop.svg') no-repeat center top / contain fixed;
+    background-size: 2000px 500px;  
+    overflow: hidden;
+}
+
+.container{
+    width: 20rem;
+} 
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    gap: 1.5rem;
+    box-sizing: border-box; 
+    padding: 1.5rem;
+    border-radius: 0 0 1rem 1rem;
+} 
+
+
+.imgsec img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.main h1{
+   width: 90%;
+   margin: 0;
+   text-align: center;
+   font-weight: 900;
+   color:  hsl(223, 47%, 23%);
+}
+
+.main p{
+    margin: 0;
+    width: 90%;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.mainpara{
+    color: hsl(224, 23%, 55%);
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    background-color:  hsl(225, 100%, 98%);
+}
+
+.child1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child1 img{
+    width: 2rem;
+    border-radius: 100px;
+}
+
+.child1 p{
+   width: 5.8rem;
+   color:  hsl(224, 23%, 55%);
+}
+
+.child1 span{
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.child2 a{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.child2 a:hover{
+   text-decoration: none;
+   opacity: 0.5;
+}
+
+.para1{
+    color: white;
+    background-color:  hsl(245, 75%, 52%) ;
+    text-align: center;
+    border-radius: 0.4rem;
+    padding: 0.8rem 4.5rem;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.para1:hover{
+    opacity: 0.7;
+}
+
+.para2{
+    text-align: center;
+    color:  hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 0.1rem;
+    cursor: pointer;
+}
+
+.para2:hover{
+    color: hsl(223, 47%, 23%);
+
+}
